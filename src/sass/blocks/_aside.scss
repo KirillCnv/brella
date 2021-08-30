@@ -1,0 +1,29 @@
+.aside {
+  background-color: #fff;
+  width: 1200px;
+  height: 171px;
+  position: absolute;
+  padding: 50px;
+  top: 715px;
+  left: 120px;
+  box-shadow: 1px 1px 4px rgba(232, 230, 230, 0.6);
+  border-radius: 6px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: inline-block;
+    width: 355px;
+    &_1 {
+      &::after {
+        content: "";
+        display: inline-block;
+        width: 41px;
+        height: 45px;
+        background: url(../../icons/meta_1.png) center (center / cover)
+          no-repeat;
+      }
+    }
+  }
+}

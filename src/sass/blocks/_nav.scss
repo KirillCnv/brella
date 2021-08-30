@@ -1,0 +1,61 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 19px 41px 31px 45px;
+  min-height: 90px;
+  background-color: #fff;
+  z-index: 2;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    list-style: none;
+    margin-right: 25px;
+    margin-top: revert;
+    li {
+      display: flex;
+      align-items: center;
+      margin-right: 50px;
+      color: $main-color;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  &__link {
+    display: inline-block;
+    margin-right: 170px;
+  }
+  &__dropdown {
+    display: inline-block;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #214e41;
+    align-items: center;
+    &::after {
+      content: "";
+      display: inline-block;
+      width: 12px;
+      height: 8px;
+      background: url(../../icons/lg_down.png) center (center / cover) no-repeat;
+      margin-left: 5px;
+    }
+  }
+  &__lang {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #214e41;
+    text-transform: uppercase;
+  }
+}
