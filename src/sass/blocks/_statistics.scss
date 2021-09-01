@@ -1,0 +1,69 @@
+.statistics {
+  min-height: 728px;
+  padding: 213px 0 120px 0;
+  &__colums {
+    display: flex;
+  }
+  &__colum {
+    flex: 50%;
+    &_mr {
+      margin-right: 60px;
+      margin-left: 60px;
+    }
+    &_bg {
+      background: url(../../img/Frame.png) center (center / cover) no-repeat;
+      height: 432px;
+    }
+  }
+  &__title {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $main-color;
+    &_bg {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 70px;
+      line-height: 90px;
+      margin-top: 169px;
+    }
+  }
+  &__subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214e41;
+    margin-top: 20px;
+    &_bg {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 22px;
+      margin-top: 55px;
+      color: $main-color;
+      span {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 22px;
+        text-decoration: underline;
+        color: $main-color;
+      }
+    }
+  }
+  &__descr {
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 22px;
+    color: #757575;
+    margin-top: 34px;
+  }
+}

@@ -11,4 +11,19 @@
     color: #ffffff;
     vertical-align: middle;
   }
+  &_statistics {
+    display: inline-block;
+    border: none;
+    background-color: #fff;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.02px;
+    border-bottom: 2px solid $main-color;
+    color: $main-color;
+    margin-top: 26px;
+  }
 }
