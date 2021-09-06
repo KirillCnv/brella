@@ -39,4 +39,17 @@
     background-color: #fff;
     margin-top: 24px;
   }
+  &_platforms {
+    display: inline-block;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #214e41;
+    border: none;
+    border-bottom: 2px solid $main-color;
+    background-color: transparent;
+    margin-top: 26px;
+  }
 }
