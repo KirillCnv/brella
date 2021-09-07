@@ -1,0 +1,32 @@
+.cards {
+  min-height: 608px;
+  padding: 120px 0;
+  &__items {
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+  }
+  &__item {
+    margin-right: 40px;
+    &:nth-last-child() {
+      margin-right: 0;
+    }
+  }
+  &__title {
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #43806c;
+    margin-top: 20px;
+  }
+  &__subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: $main-color;
+    margin-top: 15px;
+  }
+}

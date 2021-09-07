@@ -14,6 +14,13 @@
       margin: 0 auto;
     }
   }
+  &__divider {
+    background: rgba(199, 199, 199, 0.37);
+    width: 1350px;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
 }
 
 .courusel__title {
