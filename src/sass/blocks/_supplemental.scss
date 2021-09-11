@@ -1,0 +1,29 @@
+.supplemental {
+  &__colums {
+    display: flex;
+  }
+  &__colum {
+    min-height: 577px;
+    flex: 50%;
+    background: url(../../img/Rectangle.jpg) center center/cover no-repeat;
+    &_text {
+      background: #e3eeed;
+      padding: 194px 177px 96px 120px;
+    }
+  }
+  &__title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214e41;
+  }
+  &__subtitle {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214e41;
+    margin-top: 46px;
+  }
+}
