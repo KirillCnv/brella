@@ -27,6 +27,15 @@
       color: $main-color;
       font-size: 14px;
       text-align: center;
+      a {
+        text-decoration: none;
+        color: $main-color;
+        transition: 0.3s all;
+        &:hover {
+          color: #e3eeed;
+          transition: 0.3 all;
+        }
+      }
     }
   }
   &__link {
@@ -40,6 +49,8 @@
     font-size: 13px;
     color: #214e41;
     align-items: center;
+    cursor: pointer;
+
     &::after {
       content: "";
       display: inline-block;
@@ -57,5 +68,19 @@
     line-height: 20px;
     color: #214e41;
     text-transform: uppercase;
+  }
+  &__portlet {
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    top: 90px;
+    right: 0;
+    background-color: #fff;
+    transition: 0.1s;
+    transform: translateY(0%);
+    z-index: 1;
+    &_active {
+      transform: translateY(-100%);
+    }
   }
 }

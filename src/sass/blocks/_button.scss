@@ -10,6 +10,11 @@
     font-size: 14px;
     color: #ffffff;
     vertical-align: middle;
+    transition: 0.3s all;
+    &:hover {
+      background-color: #e3eeed;
+      color: $main-color;
+    }
   }
   &_statistics {
     display: inline-block;
